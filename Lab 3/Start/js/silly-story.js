@@ -61,7 +61,7 @@ function result() {
 
 	}
 	/* STEP 11: If the metric radio button has been checked, we need to convert the temperature and mass numbers in the story */
-	if (document.getElementById("uk").checked) {
+	if (document.getElementById("metric").checked) {
 		// STEP 11a: Create a variable called weight and convert the 300lbs to kgs (1lb = 0.453592kg)
 		var weight = Math.round(300 * 0.0714286) + 'stone';
 
